@@ -1,0 +1,169 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+nav{
+    background: black;
+    padding:15px;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: grey;
+}
+#Home{
+    background: url(./Design\ sem\ nome.jpg);
+    background-size: auto;
+    background-position: center;
+    color:rgb(247, 229, 183);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Home h1{
+    font-size: 48px;
+    transition: transform 0.3s ease-in-out;
+}
+#Home h1:hover{
+    transform: scale(1.1);
+}
+#Home p{
+    font-size: 24px;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+    padding: 80px 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+form label{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+form button:hover{
+    background: grey;
+    transform: scale(1.1);
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: grey;
+}
+#Sobre{
+    height: 100vh;
+}
+#Sobre h2{
+    padding-bottom: 20px;
+}
+#Sobre p{
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+#Nossos\ produtos{
+    height: 110vh;
+}
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.produto p {
+  font-weight: bold;
+  margin-bottom: 8px; 
+}
+.caixa {
+  width: 450px;
+  height: 550px;
+  background-color: white; 
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+.caixa:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+#Nossos\ produtos ul li{
+    margin: 10px;
+    padding: 20px;
+    background: grey;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+#Nossos\ produtos ul li:hover{
+    transform: scale(1.1);
+}   
+#Nossos\ produtos h2{
+    padding-bottom: 20px;
+}
+#Contatos{
+    height: 50vh;
+}
+#Sobre iframe {
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+}
+#Sobre video {
+    margin-top: 20px;
+}
