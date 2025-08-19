@@ -159,11 +159,10 @@ footer a:hover{
 #Contatos{
     height: 50vh;
 }
-#Sobre iframe {
-    display: block;
-    margin-left: 200px;
-    margin-right: auto;
-}
-#Sobre video {
+.mapa {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
